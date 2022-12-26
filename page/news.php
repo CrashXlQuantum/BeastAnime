@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeastAnime</title>
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background-image: url('../img/bg-store.jpg'); background-size: 100%;">
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html"><span style="color: #CB3241;">Beast</span><span style="color: #fff;">Anime</span></a>
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="news.php"><h4>News</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="store.php"><h4>Store</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="video.php"><h4>Просмотр</h4></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-flex flex-row">
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#!">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#!">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#!">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="container-news">
+  <br><br><br><br><br>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="../img/loveiswar.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Тираж манги «Кагуя-сама: Любовь — это война» превышает 22 миллиона экземпляров по всему миру</h5>
+        <p class="card-text">Shueisha сообщил в понедельник, что тираж манги Aka Akasaka Kaguya - sama: Love is War ( Kaguya-sama wa Kokurasetai ) превысил 22 миллиона копий (не проданных копий) по всему миру. Манга выпустила свой 28-й и последний сборник книг в понедельник вместе с «последним» официальным фанбуком манги.
+          <br><br>
+        Акасака выпустил мангу в журнале Shueisha Miracle Jump в мае 2015 года, но переместил ее в Young Jump в марте 2016 года. Манга закончилась 2 ноября.
+          <br><br>
+        Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai ( Kaguya-sama: Love is War -The First Kiss That Never Ends- ), аниме- фильм , адаптирующий одноименную сюжетную арку манги, открылся в Японии в субботу и выйдет в эфир . на телевидении в Японии после того, как он был показан в кинотеатрах. Aniplex of America покажет фильм в некоторых кинотеатрах США в феврале 2023 года.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../img/onepiecegame.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Демо One Piece Odyssey Game «Воспоминания» выйдет 10 января</h5>
+        <p class="card-text">Игра выходит на PS5, PS4, Xbox Series X|S 13 января, на ПК — 13 января. <br><br>
+        Bandai Namco Entertainment представила «трейлер воспоминаний» для игры One Piece Odyssey для PlayStation 5, PlayStation 4, Xbox Series X|S и ПК через Steam на мероприятии Jump Festa '23 в воскресенье. Sony транслирует версию видео с английскими субтитрами. Видео показывает, что демоверсия будет доступна для PS5, PS4 и Xbox Series X|S 10 января. <br><br>
+      Луффи и команда Соломенной Шляпы возвращаются в мир своих воспоминаний в игре. <br>
+      Игра выйдет 13 января 2023 года, что отложено от первоначально запланированного выпуска на 2022 год (и выйдет 12 января в Японии) </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../img/arcana.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Игра Arcana of Paradise -The Tower- выходит на Switch и ПК 20 апреля</h5>
+        <p class="card-text">Игра запускается с интерфейсом на английском, японском, корейском, упрощенном и традиционном китайском, немецком, французском, испанском и бразильском португальском языках. <br><br>
+        Shueisha Games объявила в среду, что они и Tasto Alpha запустят своюприключенческую игру Arcana of Paradise -The Tower в реальном времени для Nintendo Switch и ПК через Steam 20 апреля. Интерфейс игры будет доступен на английском, японском иКорейский, упрощенный китайский, традиционный китайский, немецкий, французский, испанский или бразильский португальский. Он также будет предлагать английские и японские субтитры. <br><br>
+        В феврале Shueisha учредила Shueisha Games как новую дочернюю компанию, находящуюся в полной собственности. Компания стремится разрабатывать игры для смартфонов с оригинальными концепциями и дизайном персонажей от создателей манги из журнала Weekly Shonen Jump от Shueisha . Компания также поддерживает несколько игр в рамках проекта Shueisha Game Creators Camp Project для независимых разработчиков.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../img/sonofnnkeepers.jfif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Я переродился сыном трактирщика! Манга указана как окончание в 3-м томе</h5>
+        <p class="card-text">Фэнтезийная манга выпущена в 2020 году. <br>
+            Amazon выставляет на продажу третий сборник книг Рэнкино, Аски Такасе и Чако Абено « Я перевоплотился как сын трактирщика!». ( Tensei Shitara Yadoya no Musukodeshita: Inaka Machi de Nonbiri Slow Life o Okurō ) манга, адаптация одноименного легкого романа Рэнкино в качестве последнего тома. Том поступит в продажу 7 февраля.
+              <br><br>
+            Рэнкино запустил серию романов на веб-сайте Shōsetsuka ni Narō («Давайте будем писателями») в 2018 году . Такарадзимаша опубликовал один том романа с иллюстрациями Абено в сентябре 2019 года.
+              <br><br>
+            Серия романов получила главный приз за первую награду «Comicalized Original Work Award» от веб-сайта Shōsetsuka ni Narō и манги Square Enix UP ! веб-сайт манги и приложение в апреле 2020 года. В рамках приза серия романов была адаптирована в мангу, сериализация которой началась на Manga UP! в октябре 2020 года в Японии. Глобальная манга UP! веб-сайт и приложение также публикуют мангу на английском языке.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../img/dropkickonmydevil.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ударь по моему дьяволу! Краудфандинговая кампания аниме достигла 200% цели</h5>
+        <p class="card-text">Кампания собрала более 60 миллионов иен, осталось 26 дней. <br>
+          Официальный Twitter-аккаунт Dropkick on My Devil! Телевизионное аниме ( Jashin-chan Dropkick ) объявило в субботу, что краудфандинговый проект аниме собрал 60 800 166 иен (около 446 900 долларов США) от 1326 сторонников, что составляет около 200% от его цели в 30 миллионов иен (около 220 600 долларов США). На момент публикации кампании осталось 26 дней.
+            <br><br>
+          Проект достиг своей первоначальной цели в 30 миллионов иен в течение 35 минут после запуска краудфандинговой кампании 30 ноября. Она завершится 13 января 2023 года.
+            <br><br>
+          Общая цель франшизы — собрать достаточное количество эпизодов для создания всего четвертого сезона под названием Dropkick on My Devil! СЛЕДУЮЩИЙ ( Джашин-чан Дропкик СЛЕДУЮЩИЙ ). Персонал объяснил, что для создания аниме продолжительностью в один курс (четверть года) стоимость производства составляет около 300 миллионов иен (около 2,153 миллиона долларов США). Сотрудники объяснили, что у них нет «возможности привлечь такой капитал», и поэтому первая цель — запустить краудфандинговую кампанию для новой OVA .эпизод. Цель - 30 миллионов иен (около 215 000 долларов США) на производство одной серии. Кампания по сбору средств будет добавлять еще один эпизод на каждые дополнительные 30 миллионов иен, собранные с планами по показу эпизодов на мероприятиях и потоковой передаче эпизодов. Мероприятие «Фестиваль Джашин-тян» запланировано на 4 мая 2023 года.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../img/toocutecrisis.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Too Cute Crisis Anime представляет 1-е промо-видео, 2-е ключевое видео, дополнительный актерский состав, премьера в апреле 2023 г.</h5>
+        <p class="card-text">На мероприятии Jump Festa '23 в воскресенье было объявлено, что аниме - адаптация манги Kawaisugi Crisis ( Too Cute Crisis ) Мицуру Кидо дебютирует в апреле 2023 года. Аниме также показало свой первый рекламный ролик, дополнительных актеров и второй ключевой образ. <br><br>
+        Дзюн Хатори ( Taisho Otome Fairy Tale ) режиссирует аниме в Synergy SP . Ая Сацуки ( «У моего хозяина нет хвоста ») отвечает за композицию и сценарий сериала, а Маюми Ватанабе ( Какюсей , Камиваза Ванда ) занимается дизайном персонажей. Шун Нарита ( Ancient Girl's Frame , Noblesse ) и Юсуке Сео ( Dark Gathering ) сочиняют музыку, Харуко Сето ( Taisho Otome Fairy Tale ) отвечает за цветовое оформление, Чихо Вада (помощник арт-директораВосхождение героя щита, сезон 2 ) — арт-директор, Хироки Цубоути ( Хаяте , боевой дворецкий ) — оператор-постановщик, а Хидэаки Мураи ( капитан Цубаса , Король демонов Даймао ) — монтаж. Нозоми Накатани (менеджер по звукозаписи, «Призрак идола» ) — звукорежиссер, а Юка Казама ( «Лагерь беззаботного отдыха» ) отвечает за звуковые эффекты. Bit Grooove Promotion отвечает за производство звука, а Pony Canyon отвечает за производство музыки.
+          <br><br>
+        Научно-фантастическая комедия рассказывает о Лизе Луне, которую отправила на Землю космическая империя Азатос. Сначала она думала, что было бы неплохо уничтожить Землю, так как она имеет низкий уровень цивилизации. Однако, остановившись в кафе, она встречает кошку и потрясена ее миловидностью.
+          <br><br>
+        Кидо выпустил мангу в журнале Shueisha 's Jump Square в октябре 2019 года. Манга также есть на Shonen Jump+ . Shueisha опубликовала шестой том манги 4 октября.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</body>
+</html>

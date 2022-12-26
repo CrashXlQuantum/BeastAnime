@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BeastAnime</title>
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+<body style="background-image: url('../img/white-bg.jpg'); background-size: 100%;">
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom-2 shadow-0">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html"><span style="color: #CB3241;">Beast</span><span style="color: #000;">Anime</span></a>
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="news.php"><h4>News</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="store.php"><h4>Store</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="video.php"><h4>Просмотр</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!"><h4><form action=""></form></h4></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-flex flex-row">
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#!">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#!">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#!">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="container-store">
+   <a class="buscet" href="#"></a>
+        <div class="container">
+          <div class="row flex">
+            <div class="col-md-4">
+              <div class="card shadow">
+                <img src="../img/product1.jpeg" class="card-img-top img-fluid border" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Рюкзак "Атака титанов"</h5>
+                  <p class="card-text">
+                    <div class="product__price" style="text-align: center; color: #C04842;"><span class="product__price-number"><h4>1 200</span>₴</h4></div>
+                  <ul>
+                  <li>Размер: 31x13x44см.</li>
+                  <li>Одно отделение, два боковых кармана и объемный передний.</li>
+                  <li>Материал: эко кожа-холст, полиэстр.</li>
+                  </ul>
+                  <div class="product__quantity"></div>
+                </p>
+                </div>
+                <button type="button"
+                        data-sb-id-or-vendor-code="012"
+                        data-sb-product-name="Рюкзак 'Атака титанов'"
+                        data-sb-product-price="1200"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="../img/product1.jpeg"
+                     class="btn-dark">В корзину</button>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="card shadow">
+                <img src="../img/product2.jpeg" class="card-img-top img-fluid border" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Блокнот "Блич"</h5>
+                  <p class="card-text">
+                    <div class="product__price" style="text-align: center; color: #C04842;"><span class="product__price-number"><h4>68</span>₴</h4></div>
+                  <ul>
+                   <li>Размер: 210х148.</li>
+                   <li>Обложка : Матовая мелованная бумага (300 г/м²).</li>
+                   <li>Внутри: Белый чистый лист (офсет 160 г/м²), 48 листов.</li>
+                  </ul>
+                   <div class="product__quantity"></div>
+                  </p>
+                </div>
+                      <button type="button"
+                        data-sb-id-or-vendor-code="016"
+                        data-sb-product-name="Блокнот 'Блич'"
+                        data-sb-product-price="68"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="../img/product2.jpeg"
+                     class="btn-dark">В корзину</button>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="card shadow">
+                <img src="../img/product3.jpg" class="card-img-top img-fluid border" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Чашка "девушка с котом"</h5>
+                  <p class="card-text">
+                    <div class="product__price" style="text-align: center; color: #C04842;"><span class="product__price-number"><h4>270</span>₴</h4></div>
+                  <ul>
+                   <li>Материал: керамика.</li>
+                   <li>Объем: 330 мл.</li>
+                   <li>Высота: 9.5 мм.</li>
+                   <li>Цвет: Белый.</li>
+                   <li>Тип емкости: кружка.</li>
+                  </ul>
+                   <div class="product__quantity"></div>
+                  </p>
+                </div>
+                    <button type="button"
+                        data-sb-id-or-vendor-code="022"
+                        data-sb-product-name="Чашка 'девушка с котом'"
+                        data-sb-product-price="270"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="../img/product3.jpg"
+                     class="btn-dark">В корзину</button>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="card shadow">
+                <img src="../img/product4.jpeg" class="card-img-top img-fluid border" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Брелок "Атака титанов"</h5>
+                  <p class="card-text">
+                    <div class="product__price" style="text-align: center; color: #C04842;"><span class="product__price-number"><h4>87</span>₴</h4></div>
+                  <ul>
+                   <li>Материал: металл.</li>
+                   <li>Длина: 35 мм.</li>
+                   <li>Ширина: 25 мм.</li>
+                  </ul>
+                  <div class="product__quantity"></div>
+                  </p>
+                </div>
+                      <button type="button"
+                        data-sb-id-or-vendor-code="034"
+                        data-sb-product-name="Брелок 'Атака титанов'"
+                        data-sb-product-price="87"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="../img/product4.jpeg"
+                     class="btn-dark">В корзину</button>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card shadow">
+                <img src="../img/product5.jpeg" class="card-img-top img-fluid border" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Плакат "Умару-чан"</h5>
+                  <p class="card-text">
+                    <div class="product__price" style="text-align: center; color: #C04842;"><span class="product__price-number"><h4>60</span>₴</h4></div>
+                    <ul>
+                      <li>Материал календаря/плаката: Мелованная бумага.</li>
+                      <li>Плотность бумаги: 150 г/м2.</li>
+                      <li>Формат: А3.</li>
+                    </ul>
+                    <div class="product__quantity"></div>
+                  </p>
+                </div>
+                      <button type="button"
+                        data-sb-id-or-vendor-code="039"
+                        data-sb-product-name="Плакат 'Умару-чан'"
+                        data-sb-product-price="60"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="../img/product5.jpeg"
+                     class="btn-dark">В корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+</div>
+<link rel="stylesheet" href="../smartbasket/css/smartbasket.min.css">
+<div class="smart-basket__wrapper"></div>
+<script src="../smartbasket/js/smartbasket.min.js"></script>
+<script src="../script.js"></script>
+</body>
+</html>
